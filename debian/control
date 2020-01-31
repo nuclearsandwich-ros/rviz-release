@@ -1,0 +1,12 @@
+Source: ros-turbulent-rviz-rendering
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, qtbase5-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-ament-index-cpp, ros-turbulent-eigen3-cmake-module, ros-turbulent-resource-retriever, ros-turbulent-rviz-assimp-vendor, ros-turbulent-rviz-ogre-vendor, ros-turbulent-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rviz-rendering
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libqt5core5a, libqt5gui5, libqt5opengl5, libqt5widgets5, qtbase5-dev, ros-turbulent-ament-index-cpp, ros-turbulent-eigen3-cmake-module, ros-turbulent-resource-retriever, ros-turbulent-rviz-assimp-vendor, ros-turbulent-rviz-ogre-vendor, ros-turbulent-ros-workspace
+Description: Library which provides the 3D rendering functionality in rviz.
