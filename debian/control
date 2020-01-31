@@ -1,0 +1,12 @@
+Source: ros-turbulent-rviz-default-plugins
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-ament-index-cpp, ros-turbulent-geometry-msgs, ros-turbulent-interactive-markers, ros-turbulent-laser-geometry, ros-turbulent-map-msgs, ros-turbulent-nav-msgs, ros-turbulent-pluginlib, ros-turbulent-rclcpp, ros-turbulent-resource-retriever, ros-turbulent-rviz-common, ros-turbulent-rviz-rendering, ros-turbulent-rviz-rendering-tests, ros-turbulent-rviz-visual-testing-framework, ros-turbulent-tf2, ros-turbulent-tf2-geometry-msgs, ros-turbulent-tf2-ros, ros-turbulent-tinyxml-vendor, ros-turbulent-urdf, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rviz-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5opengl5, libqt5widgets5, ros-turbulent-geometry-msgs, ros-turbulent-interactive-markers, ros-turbulent-laser-geometry, ros-turbulent-map-msgs, ros-turbulent-nav-msgs, ros-turbulent-pluginlib, ros-turbulent-rclcpp, ros-turbulent-resource-retriever, ros-turbulent-rviz-common, ros-turbulent-rviz-rendering, ros-turbulent-tf2, ros-turbulent-tf2-geometry-msgs, ros-turbulent-tf2-ros, ros-turbulent-tinyxml-vendor, ros-turbulent-urdf, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Description: Several default plugins for rviz to cover the basic functionality.
