@@ -1,0 +1,12 @@
+Source: ros-turbulent-rviz-visual-testing-framework
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-rviz-common, ros-turbulent-ros-workspace
+Homepage: http://ros.org/wiki/rviz2
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rviz-visual-testing-framework
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake-gtest, ros-turbulent-rviz-common, ros-turbulent-ros-workspace
+Description: 3D testing framework for RViz.
