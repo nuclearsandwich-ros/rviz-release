@@ -1,0 +1,12 @@
+Source: ros-turbulent-rviz-rendering-tests
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-cppcheck, ros-turbulent-ament-cmake-cpplint, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-lint-cmake, ros-turbulent-ament-cmake-uncrustify, ros-turbulent-ament-index-cpp, ros-turbulent-resource-retriever, ros-turbulent-rviz-rendering, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rviz-rendering-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-resource-retriever, ros-turbulent-rviz-rendering, ros-turbulent-ros-workspace
+Description: Example plugin for RViz - documents and tests RViz plugin development
