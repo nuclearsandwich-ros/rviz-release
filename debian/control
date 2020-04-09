@@ -1,0 +1,12 @@
+Source: ros-verystable-rviz-rendering-tests
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-uncrustify, ros-verystable-ament-index-cpp, ros-verystable-resource-retriever, ros-verystable-rviz-rendering, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rviz-rendering-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-resource-retriever, ros-verystable-rviz-rendering, ros-verystable-ros-workspace
+Description: Example plugin for RViz - documents and tests RViz plugin development
