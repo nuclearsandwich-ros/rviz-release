@@ -1,0 +1,12 @@
+Source: ros-verystable-rviz-rendering
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-uncrustify, ros-verystable-ament-index-cpp, ros-verystable-eigen3-cmake-module, ros-verystable-resource-retriever, ros-verystable-rviz-assimp-vendor, ros-verystable-rviz-ogre-vendor, ros-verystable-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rviz-rendering
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libqt5core5a, libqt5gui5, libqt5opengl5, libqt5widgets5, qtbase5-dev, ros-verystable-ament-index-cpp, ros-verystable-eigen3-cmake-module, ros-verystable-resource-retriever, ros-verystable-rviz-assimp-vendor, ros-verystable-rviz-ogre-vendor, ros-verystable-ros-workspace
+Description: Library which provides the 3D rendering functionality in rviz.
