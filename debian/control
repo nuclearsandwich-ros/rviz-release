@@ -1,0 +1,12 @@
+Source: ros-verystable-rviz2
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-uncrustify, ros-verystable-geometry-msgs, ros-verystable-rclcpp, ros-verystable-rviz-common, ros-verystable-rviz-ogre-vendor, ros-verystable-sensor-msgs, ros-verystable-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rviz2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rviz-common, ros-verystable-rviz-default-plugins, ros-verystable-rviz-ogre-vendor, ros-verystable-ros-workspace
+Description: 3D visualization tool for ROS.
