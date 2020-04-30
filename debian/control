@@ -1,0 +1,12 @@
+Source: ros-verystable-rviz-common
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-uncrustify, ros-verystable-geometry-msgs, ros-verystable-message-filters, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-resource-retriever, ros-verystable-rviz-assimp-vendor, ros-verystable-rviz-ogre-vendor, ros-verystable-rviz-rendering, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-tf2, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-tinyxml-vendor, ros-verystable-urdf, ros-verystable-yaml-cpp-vendor, ros-verystable-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rviz-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5opengl5, libqt5widgets5, qtbase5-dev, ros-verystable-geometry-msgs, ros-verystable-message-filters, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-resource-retriever, ros-verystable-rviz-assimp-vendor, ros-verystable-rviz-ogre-vendor, ros-verystable-rviz-rendering, ros-verystable-sensor-msgs, ros-verystable-std-msgs, ros-verystable-tf2, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-tinyxml-vendor, ros-verystable-urdf, ros-verystable-yaml-cpp-vendor, ros-verystable-ros-workspace
+Description: Common rviz API, used by rviz plugins and applications.
