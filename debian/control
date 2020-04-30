@@ -1,0 +1,12 @@
+Source: ros-verystable-rviz-default-plugins
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-cppcheck, ros-verystable-ament-cmake-cpplint, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ament-cmake-uncrustify, ros-verystable-ament-index-cpp, ros-verystable-geometry-msgs, ros-verystable-interactive-markers, ros-verystable-laser-geometry, ros-verystable-map-msgs, ros-verystable-nav-msgs, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-resource-retriever, ros-verystable-rviz-common, ros-verystable-rviz-rendering, ros-verystable-rviz-rendering-tests, ros-verystable-rviz-visual-testing-framework, ros-verystable-tf2, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-tinyxml-vendor, ros-verystable-urdf, ros-verystable-visualization-msgs, ros-verystable-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rviz-default-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5opengl5, libqt5widgets5, ros-verystable-geometry-msgs, ros-verystable-interactive-markers, ros-verystable-laser-geometry, ros-verystable-map-msgs, ros-verystable-nav-msgs, ros-verystable-pluginlib, ros-verystable-rclcpp, ros-verystable-resource-retriever, ros-verystable-rviz-common, ros-verystable-rviz-rendering, ros-verystable-tf2, ros-verystable-tf2-geometry-msgs, ros-verystable-tf2-ros, ros-verystable-tinyxml-vendor, ros-verystable-urdf, ros-verystable-visualization-msgs, ros-verystable-ros-workspace
+Description: Several default plugins for rviz to cover the basic functionality.
