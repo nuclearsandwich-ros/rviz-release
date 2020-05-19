@@ -1,0 +1,12 @@
+Source: ros-testing-rviz2
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-testing-ament-cmake, ros-testing-ament-cmake-cppcheck, ros-testing-ament-cmake-cpplint, ros-testing-ament-cmake-lint-cmake, ros-testing-ament-cmake-uncrustify, ros-testing-geometry-msgs, ros-testing-rclcpp, ros-testing-rviz-common, ros-testing-rviz-ogre-vendor, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Homepage: https://github.com/ros2/rviz/blob/ros2/README.md
+Standards-Version: 3.9.2
+
+Package: ros-testing-rviz2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rviz-common, ros-testing-rviz-default-plugins, ros-testing-rviz-ogre-vendor, ros-testing-ros-workspace
+Description: 3D visualization tool for ROS.
