@@ -1,0 +1,12 @@
+Source: ros-testing-rviz-rendering-tests
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-testing-ament-cmake, ros-testing-ament-cmake-cppcheck, ros-testing-ament-cmake-cpplint, ros-testing-ament-cmake-gmock, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-lint-cmake, ros-testing-ament-cmake-uncrustify, ros-testing-ament-index-cpp, ros-testing-resource-retriever, ros-testing-rviz-rendering, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rviz-rendering-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-resource-retriever, ros-testing-rviz-rendering, ros-testing-ros-workspace
+Description: Example plugin for RViz - documents and tests RViz plugin development
